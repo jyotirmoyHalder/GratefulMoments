@@ -42,8 +42,8 @@ extension Moment {
     
     static let sampleData = [
         Moment(
-            title: "🍅🥳",
-            note: "Picked my first homegrown tomato."
+            title: "🍅🥳 Moment Title",
+            note: "Picked my first homegrown tomato.Picked my first homegrown tomato.Picked my first homegrown tomato.Picked my first homegrown tomato.Picked my first homegrown tomato.Picked my first homegrown tomato.Picked my first homegrown tomato.Picked my first homegrown tomato.Picked my first homegrown tomato."
         ),
         Moment(
             title: "Passed the test!",
