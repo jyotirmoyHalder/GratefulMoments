@@ -16,6 +16,8 @@ class Moment {
     var imageData: Data?
     var timestamp: Date
 
+    var badges: [Badge]
+    
     init(
         title: String,
         note: String,
@@ -26,6 +28,7 @@ class Moment {
         self.note = note
         self.imageData = imageData
         self.timestamp = timestamp
+        self.badges = []
     }
 
     var image: UIImage? {
