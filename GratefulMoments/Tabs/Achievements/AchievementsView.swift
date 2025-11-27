@@ -24,7 +24,9 @@ struct AchievementsView: View {
                 contentStack
             }
             .navigationTitle("Achievements")
+            .scrollIndicators(.hidden)
         }
+        .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
     }
     
     private var contentStack: some View {

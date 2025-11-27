@@ -14,8 +14,8 @@ struct GratefulMomentsApp: App {
     
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            MomentsView()
+            ContentView()
+//            MomentsView()
                 .environment(dataContainer)
         }
         .modelContainer(dataContainer.modelContainer)

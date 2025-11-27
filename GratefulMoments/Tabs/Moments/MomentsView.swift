@@ -57,6 +57,7 @@ struct MomentsView: View {
             .defaultScrollAnchor(.top, for: .alignment)
             .navigationTitle("Greteful Moments")
         }
+        .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
     }
     
     private var pathItems: some View {
