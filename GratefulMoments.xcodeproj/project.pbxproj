@@ -6,11 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		B23A61A42ED8602200E52DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B26944DA2ECF280E0004BFC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B26944E12ECF280E0004BFC7;
+			remoteInfo = GratefulMoments;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B23A61A02ED8602200E52DD3 /* GratefulMomentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratefulMomentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26944E22ECF280E0004BFC7 /* GratefulMoments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GratefulMoments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		B23A61A12ED8602200E52DD3 /* GratefulMomentsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GratefulMomentsTests;
+			sourceTree = "<group>";
+		};
 		B26944E42ECF280E0004BFC7 /* GratefulMoments */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GratefulMoments;
@@ -19,6 +35,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B23A619D2ED8602200E52DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B26944DF2ECF280E0004BFC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				B26944E42ECF280E0004BFC7 /* GratefulMoments */,
+				B23A61A12ED8602200E52DD3 /* GratefulMomentsTests */,
 				B26944E32ECF280E0004BFC7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				B26944E22ECF280E0004BFC7 /* GratefulMoments.app */,
+				B23A61A02ED8602200E52DD3 /* GratefulMomentsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B23A619F2ED8602200E52DD3 /* GratefulMomentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23A61A82ED8602200E52DD3 /* Build configuration list for PBXNativeTarget "GratefulMomentsTests" */;
+			buildPhases = (
+				B23A619C2ED8602200E52DD3 /* Sources */,
+				B23A619D2ED8602200E52DD3 /* Frameworks */,
+				B23A619E2ED8602200E52DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23A61A52ED8602200E52DD3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B23A61A12ED8602200E52DD3 /* GratefulMomentsTests */,
+			);
+			name = GratefulMomentsTests;
+			packageProductDependencies = (
+			);
+			productName = GratefulMomentsTests;
+			productReference = B23A61A02ED8602200E52DD3 /* GratefulMomentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B26944E12ECF280E0004BFC7 /* GratefulMoments */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B26944ED2ECF280F0004BFC7 /* Build configuration list for PBXNativeTarget "GratefulMoments" */;
@@ -80,6 +128,10 @@
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
+					B23A619F2ED8602200E52DD3 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = B26944E12ECF280E0004BFC7;
+					};
 					B26944E12ECF280E0004BFC7 = {
 						CreatedOnToolsVersion = 26.1.1;
 					};
@@ -100,11 +152,19 @@
 			projectRoot = "";
 			targets = (
 				B26944E12ECF280E0004BFC7 /* GratefulMoments */,
+				B23A619F2ED8602200E52DD3 /* GratefulMomentsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B23A619E2ED8602200E52DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B26944E02ECF280E0004BFC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +175,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B23A619C2ED8602200E52DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B26944DE2ECF280E0004BFC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +191,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B23A61A52ED8602200E52DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B26944E12ECF280E0004BFC7 /* GratefulMoments */;
+			targetProxy = B23A61A42ED8602200E52DD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B23A61A62ED8602200E52DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotirmoyhalder.GratefulMomentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GratefulMoments.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GratefulMoments";
+			};
+			name = Debug;
+		};
+		B23A61A72ED8602200E52DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotirmoyhalder.GratefulMomentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GratefulMoments.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GratefulMoments";
+			};
+			name = Release;
+		};
 		B26944EB2ECF280F0004BFC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -309,6 +424,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B23A61A82ED8602200E52DD3 /* Build configuration list for PBXNativeTarget "GratefulMomentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23A61A62ED8602200E52DD3 /* Debug */,
+				B23A61A72ED8602200E52DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B26944DD2ECF280E0004BFC7 /* Build configuration list for PBXProject "GratefulMoments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
